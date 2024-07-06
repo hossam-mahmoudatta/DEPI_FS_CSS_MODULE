@@ -1,55 +1,42 @@
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container {
+    background-color: greenyellow;
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000;
+    overflow: hidden;
+    position: center;
+}
 .item {
-    background-color: aqua;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    position: relative;
-    animation-name: background-changer;
-    animation-duration: 10s;
-    animation-iteration-count: 10;
-    /* animation-delay: 5s; */
-    /* animation-timing-function: ease-out; */
-    /* animation: moveHorizontally  3s linear infinite; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    animation: slideUpDown 4s ease-in-out infinite;
 }
 
-@keyframes background-changer {
+@keyframes slideUpDown {
     0% {
-        background-color: yellow;
-        border-radius: 12%;
-        left: 0%;
+        top: 100%;
     }
-    
     25% {
-        background-color: blue;
-        border-radius: 24%;
-        left: 50%;
+        top: 0;
     }
-    
     50% {
-        background-color: pink;
-        border-radius: 36%;
-        left: 100%;
+        top: 0;
     }
-
     75% {
-        background-color: pink;
-        border-radius: 36%;
-        left: 50%;
+        top: 100%;
     }
-
     100% {
-        background-color: blueviolet;
-        border-radius: 50%;
-        left: 0%;
+        top: 100%;
     }
 }
-
-/* @keyframes background-changer {
-    from {
-        background-color: yellow;
-    }
-    to {
-        background-color: red;
-    }
-} */

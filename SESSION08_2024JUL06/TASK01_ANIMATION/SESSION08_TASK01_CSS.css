@@ -1,0 +1,42 @@
+
+.item {
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    animation-name: background-changer;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+    animation-delay: 5s;
+    animation-timing-function: ease-out;
+}
+
+/* @keyframes background-changer {
+    from {
+        background-color: yellow;
+    }
+    to {
+        background-color: red;
+    }
+} */
+
+@keyframes background-changer {
+    0% {
+        background-color: yellow;
+        border-radius: 12%;
+    }
+
+    25% {
+        background-color: blue;
+        border-radius: 24%;
+    }
+
+    50% {
+        background-color: pink;
+        border-radius: 36%;
+    }
+
+    100% {
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+}

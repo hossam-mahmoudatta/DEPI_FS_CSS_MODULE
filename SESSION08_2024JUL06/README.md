@@ -1,2 +1,2 @@
 # DEPI_FS_CSS_MODULE
-This is for the 8th Session
+This is the readme file for the 8th Session in DEPI

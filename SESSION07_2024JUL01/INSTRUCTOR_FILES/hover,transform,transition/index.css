@@ -1,0 +1,114 @@
+#overflow{
+    background-color: aqua;
+    width:50%;
+    height: 100px;
+
+    overflow: visible;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.inheritance{
+    background-color: aqua;
+    border: 2px solid red;
+    padding: 10px;
+
+}
+.inheritance p {
+    border:inherit;
+    padding: inherit;
+}
+
+.important{
+    color:red !important
+}
+
+
+.important{
+    color:blue 
+}
+
+/* pseudo classes */
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+
+    /* transition */
+    /* transition-delay: 3s; */
+    transition-duration: 4s;
+    transition-timing-function:ease-in;
+    /* shorthand */
+    transition: 3s 1s ease-in-out;  
+    /* duration delay function */
+
+    /* transform */
+    /* transform-origin: bottom right; */
+    /* transform: rotate(45deg); */
+    /* transform: rotateX(90deg); */
+    /* transform: rotateY(90deg); */
+
+    /* transform: scaleY(2); */
+
+    /* transform: skew(45deg); */
+
+    /* transform: translate(200px,0px); */
+    /* transform: translateX(200px);
+    transform: translateY(200px); */
+}
+
+/* .item:hover{
+background-color: blue;
+width: 600px;
+cursor:pointer;
+} */
+
+
+
+
+
+.item2{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    transition: 3s 0s all;
+    margin-left: 100px;
+    transform-origin: right; 
+}
+.item2:hover{
+    background-color: blue;
+    /* transform: rotate(360deg); */
+    /* transform-origin: bottom right; */
+    /* transform: translate(200px,0px); */
+    transform: scaleX(2);
+}
+
+
+
+/*  */
+
+.blue{
+    background-color: blue;
+    width: 400px;
+    height: 50px;
+    overflow: hidden;
+}
+.text{
+    white-space: nowrap;
+    color: white;
+    transition-duration: 3s;
+}
+
+.blue:hover p{
+   transform: translateX(-400px);
+}
+
+/*  */
+h2{
+    background-color: yellow;
+    padding: 10px;
+    display: none;
+}
+.show:hover h2{
+     display: block;
+}

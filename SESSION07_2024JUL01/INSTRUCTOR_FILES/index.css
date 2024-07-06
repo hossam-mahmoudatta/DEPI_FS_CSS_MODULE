@@ -1,0 +1,112 @@
+.boxes{
+    height:100px;
+    width: 150px;
+    background-color: coral;
+    margin:30px 10px;
+    cursor: pointer; 
+    transition: all 2s;  
+}
+
+.change-bgcolor:hover{
+    background-color: crimson;
+}
+
+.change-font-color:hover{
+    color:blue;
+}
+
+.move-right:hover{
+    background-color: crimson;
+    transform : translateX(10px);
+}
+
+.move-left:hover{
+    background-color: crimson;
+    transform : translateX(-10px);
+}
+.move-up:hover{
+    background-color: crimson;
+    transform : translateY(-10px);
+}
+
+.move-down:hover{
+    background-color: crimson;
+    transform : translateY(10px);
+}
+
+.zoom-in:hover{
+    background-color: crimson;
+    transform: scale(1.5);
+}
+
+.zoom-out:hover{
+    background-color: crimson;
+    transform: scale(.5);
+}
+
+
+.change-radius:hover{
+    background-color: crimson;
+    border-radius: 50%;
+}
+
+.expand-left-right:hover{
+    background-color: crimson;
+    transform : scaleX(1.5);
+}
+
+.expand-up-down:hover{
+    background-color: crimson;
+    transform : scaleY(1.5);
+}
+
+.rotate-clockwise:hover{
+    background-color: crimson;
+    transform: rotate(30deg);
+}
+
+.rotate-anti-clockwise:hover{
+    background-color: crimson;
+    transform: rotate(-30deg);
+}
+
+.rotate-360-clockwise:hover{
+    background-color: crimson;
+    transform: rotate(360deg);
+}
+
+.rotate-360-anticlockwise:hover{
+    background-color: crimson;
+    transform: rotate(-360deg);
+}
+
+.filip-horizontal:hover{
+    background-color: crimson;
+    transform: rotate(-360deg);
+}
+
+.filip-horizontal-mirror:hover{
+    background-color: crimson;
+    transform: rotateY(180deg);
+}
+
+.filip-vertical:hover{
+    background-color: crimson;
+    transform: rotateX(-360deg);
+}
+
+.filip-vertical-mirror:hover{
+    background-color: crimson;
+    transform: rotateX(180deg);
+}
+
+.inset-box-shadow:hover{
+    background-color: crimson;
+    box-shadow: inset 0 0 0 20px #2f2f2f;
+}
+
+.offset-box-shadow:hover{
+    background-color: crimson;
+    box-shadow: 0 0 0 20px #2f2f2f;
+}
+

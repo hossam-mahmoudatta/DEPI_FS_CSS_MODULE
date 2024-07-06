@@ -1,0 +1,79 @@
+/* .item {
+    width: 40%;
+    height: 730px;
+    background-color: red;
+    display: flex;
+} */
+
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+.container {
+    display: flex; /* this is very important */
+    background-color: silver;
+    height: 720px;
+    border: 5px solid pink;
+    flex-wrap: nowrap;
+    /* justify-content: no; */
+    /* align-content: space-around; */
+    /*
+    align-items: end;
+    flex-direction: row;
+    */
+    /* box-sizing: border-box; */
+}
+
+
+.item1 {
+    background-color: black;
+    width: 50%;
+}
+
+.item2 {
+    background-color: blue;
+    width: 30%;
+}
+
+.item3 {
+    background-color: green;
+    width: 20%;
+    height: 100%;
+    /* flex-direction: column-reverse; */
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+}
+
+
+.item1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.item2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.image3{
+    height: 50%;
+    width: 100%;
+}
+
+.image4{
+    height: 49.5%;
+    width: 100%;
+}
+
+
+
+
+/* 
+    what is flex-grow?
+    what is flex-shrink?
+    flex-shrink default value : 1
+    flex shrink is when in a div, suppose u have
+*/

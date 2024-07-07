@@ -1,0 +1,40 @@
+
+.body {
+    height: 2000px;
+}
+
+input {
+    background-color: red;
+    border: 2px solid blue;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    background-color: blue;
+    border: navy;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: aqua;
+    color: blueviolet;
+    border: none;
+}
+
+button:active {
+    color: blue;
+    border: none;
+}
+
+.before {
+    color: red;
+}
+
+.after {
+    color: green;
+}
+
+input:nth-of-type(1) {
+    color: blanchedalmond;
+}

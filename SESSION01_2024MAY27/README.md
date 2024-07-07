@@ -1,2 +1,2 @@
 # DEPI_FS_CSS_MODULE
-CSS Module for the DEPI Full Stack Course 
+This is the start for the HTML Module

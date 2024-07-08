@@ -1,0 +1,42 @@
+
+.container {
+    background-color: yellowgreen;
+    width: 100%;
+    height: 200px;
+    display: grid;
+
+    /* Number of Columns */
+    grid-template-columns: 100px 50px 100px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-columns: 25% 50% 25%;
+
+    /* gap: 5px 20px; */
+
+    justify-content: center;
+    /* grid-auto-rows: 100px; */
+}
+
+.child1 {
+    background-color: red;
+}
+
+.child2 {
+    background-color: blue;
+}
+
+.child3 {
+    background-color: yellowgreen;
+}
+
+.child4 {
+    background-color: pink;
+}
+
+.child5 {
+    background-color: green;
+}
+
+.child6 {
+    background-color: orange;
+}

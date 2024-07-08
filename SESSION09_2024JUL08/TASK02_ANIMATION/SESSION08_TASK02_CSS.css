@@ -1,0 +1,29 @@
+
+.container {
+    background-color: greenyellow;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+h1 {
+    position: relative;
+    animation-name: slideUpDown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideUpDown {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(200px);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}

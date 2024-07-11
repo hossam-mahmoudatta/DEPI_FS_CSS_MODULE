@@ -9,7 +9,7 @@
     grid-template-columns: 100px 50px 100px;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-columns: repeat(5, 20%);
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 25% 50% 25% 50%;
 
     /* gap: 5px 20px; */
 

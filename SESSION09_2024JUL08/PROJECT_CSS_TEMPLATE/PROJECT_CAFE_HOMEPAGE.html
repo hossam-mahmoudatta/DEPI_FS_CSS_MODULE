@@ -4,18 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <!-- <link rel="stylesheet" href="PROJECT_CAFE_CSS.css"> -->
+    <!-- My Own CSS File -->
+    <link rel="stylesheet" href="PROJECT_CAFE_CSS.css">
+    <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <!-- Bootstrap JS and dependencies -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <!-- Dark Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+        <a class="navbar-brand" href="#">Burgerizer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,6 +35,20 @@
         </div>
     </nav>
 
-    
+    <!-- Main content -->
+    <div class="container mt-5">
+        <h1>Welcome to Bootstrap</h1>
+        <p>This is a simple example of a Bootstrap-powered webpage with a dark navigation bar.</p>
+    </div>
+        
+    <div class="container">
+    <h3>Right Aligned Navbar</h3>
+    <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

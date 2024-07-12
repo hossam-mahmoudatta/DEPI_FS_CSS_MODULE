@@ -7,22 +7,50 @@
 }
 
 body {
-    background-image: url('BGWALLPAPER.jpg');
+    background-image: url('BGWALLPAPER_BLUR.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Optional: This keeps the background fixed while scrolling */
     height: 100vh; /* Ensure the body covers the entire viewport height */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    padding-top: 70px; /* Adjust this value to match the height of your navbar */
     /* background-color: rgba(0, 0, 0, 0.8); */
     /* Adjust the last value (0.5) for opacity */
     color: white;
+}
+
+.navbar {
+    transition: min-height 0.3s, padding-top 0.3s, padding-bottom 0.3s;
+}
+
+.navbar.smaller {
+    min-height: 50px; /* Adjust the smaller height as needed */
+    padding-top: 5px; /* Adjust top padding as needed */
+    padding-bottom: 5px; /* Adjust bottom padding as needed */
 }
 
 /* Logo styling */
 .navbar-brand .logo {
     height: 80px; /* Adjust the height as needed */
     width: auto;
+    color: white;
+}
+
+/* Custom font color for navbar items */
+.navbar-nav .nav-link {
+    font-size: 1.3rem; /* Set default font size */
+    font-family: 'Consolas', sans-serif; /* Example: Change font family */
+    font-weight: bold; /* Example: Set font weight */
+}
+
+/* Custom font color for navbar items */
+.custom-font-color {
+    color: white !important; /* Replace #ff6347 with your desired color */
+}
+
+.custom-font-color:hover {
+    color: greenyellow !important; /* Optional: Add hover effect */
 }
 
 .mt-5 {

@@ -1,9 +1,9 @@
 /* CSS File for the Project */
-.navbar-custom {
-    /* margin-left: 15px;
-    margin-right: 15px; */
-    padding-left: 30px;
-    padding-right: 30px;
+
+/* Header Styling */
+header {
+    color: white;
+    padding-top: 70px;
 }
 
 body {
@@ -18,6 +18,13 @@ body {
     /* background-color: rgba(0, 0, 0, 0.8); */
     /* Adjust the last value (0.5) for opacity */
     color: white;
+}
+
+.navbar-custom {
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .navbar {

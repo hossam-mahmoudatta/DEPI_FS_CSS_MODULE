@@ -14,7 +14,7 @@ body {
     height: 100vh; /* Ensure the body covers the entire viewport height */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    padding-top: 70px; /* Adjust this value to match the height of your navbar */
+    padding-top: 70px;
     /* background-color: rgba(0, 0, 0, 0.8); */
     /* Adjust the last value (0.5) for opacity */
     color: white;

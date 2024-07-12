@@ -18,3 +18,13 @@ body {
     /* Adjust the last value (0.5) for opacity */
     color: white;
 }
+
+/* Logo styling */
+.navbar-brand .logo {
+    height: 40px; /* Adjust the height as needed */
+    width: auto;
+}
+
+.mt-5 {
+    color: white;
+}

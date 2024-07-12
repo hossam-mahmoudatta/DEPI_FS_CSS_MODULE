@@ -1,5 +1,20 @@
 /* CSS File for the Project */
 .navbar-custom {
-    padding-left: 15px;
-    padding-right: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body {
+    background-image: url('BGWALLPAPER.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: This keeps the background fixed while scrolling */
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    /* Adjust the last value (0.5) for opacity */
+    color: white;
 }

@@ -46,7 +46,7 @@ body {
 
 /* Custom font color for navbar items */
 .navbar-nav .nav-link {
-    font-size: 1.3rem; /* Set default font size */
+    font-size: 1.1rem; /* Set default font size */
     font-family: 'Consolas', sans-serif; /* Example: Change font family */
     font-weight: bold; /* Example: Set font weight */
 }

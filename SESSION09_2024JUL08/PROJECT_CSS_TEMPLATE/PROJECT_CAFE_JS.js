@@ -17,3 +17,6 @@ $(document).ready(function() {
       lastScrollTop = st;
   });
 });
+
+// Initialize scrollspy
+$('body').scrollspy({ target: '#navbarNav' });

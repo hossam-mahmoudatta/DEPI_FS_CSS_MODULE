@@ -66,14 +66,24 @@ body {
     color: greenyellow !important; /* Optional: Add hover effect */
 }
 
+.custom-font-size {
+    font-size: 1.45rem; /* Set default font size */
+}
+
 .mt-5 {
     color: white;
 }
 
-.carousel-item img {
-    width: 100%;
-    height: auto;
+.section::before {
+    content: "";
+    display: block;
+    height: 56px; /* Height of the navbar */
+    margin-top: -56px; /* Negative margin to offset the height */
 }
+.section {
+    height: 100vh;
+}
+
 
 /* Styling for the Horizontal Banner */
 .scrolling-banner-container {

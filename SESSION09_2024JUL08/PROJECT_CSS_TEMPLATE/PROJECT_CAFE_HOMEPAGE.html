@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/8e1b41146e.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="56">
     <!-- Header Content -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -27,22 +27,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link custom-font-color" href="#">
+                            <a class="nav-link custom-font-color" href="#home">
                                 <i class="fa-solid fa-house" href="#home"></i><i> Home <span class="sr-only">(Current)</span></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link custom-font-color" href="#">
+                            <a class="nav-link custom-font-color" href="#about">
                                 <i class="fa-solid fa-circle-info" href="#about"></i><i> About</i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link custom-font-color" href="#">
+                            <a class="nav-link custom-font-color" href="#services">
                                 <i class="fa-solid fa-utensils" href="#services"></i><i> Services</i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link custom-font-color" href="#">
+                            <a class="nav-link custom-font-color" href="#contact">
                                 <i class="fa-solid fa-address-book" href="#contact"></i><i> Contact Us</i>
                             </a>
                         </li>
@@ -73,59 +73,70 @@
     
     <!-- Main content -->
     <main>
-        <!-- Horizontal Banner -->
-        <div class="scrolling-banner-container">
-            <div class="scrolling-banner">
-                This is a scrolling banner. Welcome to our website! Stay tuned for updates.
-            </div>
-        </div>
-
-        <!-- Horizontall Carousel -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="banner01.jpg" class="d-block w-100" alt="First Slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="banner02.jpg" class="d-block w-100" alt="Second Slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="banner03.jpg" class="d-block w-100" alt="Third Slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="banner04.jpg" class="d-block w-100" alt="Third Slide">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-
-        <div class="container mt-5">
-            <h3 class="text-center">Where you'll find Most delicious Burger ever made!</h3>
-        </div>
-
         <section id="home" class="container mt-5">
-            <h1>Home</h1>
-            <p>Welcome to the homepage.</p>
+            <!-- Horizontal Banner -->
+            <div class="scrolling-banner-container">
+                <div class="scrolling-banner">
+                    Welcome to our Burgerizer! Stay tuned for our Weekly Offers and Giveaways.
+                </div>
+            </div>
+            
+            <!-- Horizontall Carousel Offers-->
+            <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="Banner01.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="Banner02.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="Banner03.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="Banner04.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="Smash-Burger-1.jpg" alt="Smash Burgers" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
         </section>
-
+            
+            
         <section id="about" class="container mt-5">
-            <h1>About</h1>
-            <p>This is the about section.</p>
+            <h1 class="text-center">About</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="openingrestaurant.jpg" alt="Smash Burgers" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <p class = "custom-font-size">
+                        Founded in 2018 by childhood friends and food enthusiasts, 
+                        Hossam and Mahmoud, the vision was to create a welcoming space
+                        where people could enjoy high-quality, locally-sourced dishes. 
+                        With Hossam's expertise in gourmet cooking and Mahmoud's flair for hospitality, 
+                        they transformed a quaint, historic building into a vibrant eatery. 
+                        Today, our restaurant stands as a testament to their hard work 
+                        and dedication, offering a unique dining experience that celebrates 
+                        both tradition and innovation.
+                    </p>
+                </div>
+            </div>
         </section>
-
+            
         <section id="services" class="container mt-5">
             <h1>Services</h1>
             <p>Details about our services.</p>
@@ -136,13 +147,7 @@
             <p>Contact information goes here.</p>
         </section>
 
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="Smash-Burger-1.jpg" alt="Smash Burgers" class="img-fluid rounded">
-                </div>
-            </div>
-        </div>
+
         <div class="container mt-5">
             <h1>Welcome to Burgerizer!</h1>
             <p>This is a simple example of a Bootstrap-powered webpage with a dark navigation barr.</p>
@@ -171,3 +176,37 @@
     <script src="PROJECT_CAFE_JS.js"></script>
 </body>
 </html>
+
+
+<!-- This for the Clickable Carousells
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Banner01.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Banner02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Banner03.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Banner04.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+-->

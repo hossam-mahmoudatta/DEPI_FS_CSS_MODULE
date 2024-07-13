@@ -1,11 +1,17 @@
 /* CSS File for the Project */
 
+/* Styling for the whole HTML file */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Header Styling */
 header {
     color: white;
     padding-top: 70px;
 }
 
+/* Styling for the whole body of the html page */
 body {
     background-image: url('BGWALLPAPER_BLUR.jpg');
     background-size: cover;
@@ -62,4 +68,38 @@ body {
 
 .mt-5 {
     color: white;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styling for the Horizontal Banner */
+.scrolling-banner-container {
+    overflow: hidden;
+    white-space: nowrap;
+    background: #000;
+    color: #fff;
+    width: 100%;
+}
+
+.scrolling-banner {
+    display: inline-block;
+    padding: 20px;
+    font-size: 24px;
+    animation: scroll-banner 15s linear infinite;
+}
+
+@keyframes scroll-banner {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.scrolling-banner-container:hover .scrolling-banner {
+    animation-play-state: paused;
 }
